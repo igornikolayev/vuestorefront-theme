@@ -28,18 +28,6 @@ export default {
   },
   data () {
     return {
-      slickOptions: {
-          //options can be used from the plugin documentation
-          slidesToShow: 4,
-          infinite: true,
-          accessibility: true,
-          adaptiveHeight: false,
-          arrows: true,
-          dots: true,
-          draggable: true,
-          edgeFriction: 0.30,
-          swipe: true
-      },
 
       currentSlide: 1,
       slides: [],
