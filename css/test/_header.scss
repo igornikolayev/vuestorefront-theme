@@ -1,0 +1,127 @@
+
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.83rem;
+  color: #ffffff;
+  &__button{
+    margin-right: 2.26vw !important;
+    background: linear-gradient(#8bc73d, #89cdc3);
+    padding: 8px 20px;
+  }
+}
+.right-side{
+  display: flex;
+}
+.box{
+  display: flex;
+  align-items: center;
+  span{
+    font-weight: 300;
+    font-size: 0.83rem;
+  }
+  img{
+    width: 2rem;
+    margin-left: 0.5vw;
+  }
+}
+.section__middle-header{
+  background: #fff;
+}
+.middle-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.logo{
+  img {
+    width: 20vw;
+  }
+}
+.search{
+  display: flex;
+  align-items: center;
+  position: relative;
+  button{
+    width: 5.55vw;
+    background: #8dc73f;
+    position: absolute;
+    right: 0;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 100%;
+  }
+  input{
+    border: 1px solid #89cdc3;
+    border-radius: 5px;
+    padding-right: 5.5vw;
+    padding-left: 3vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #626262;
+    font-size: 0.83rem;
+    font-style: italic;
+    width: 30vw;
+    max-width: 30vw;
+    box-sizing: border-box;
+  }
+  img{
+    width: 1vw;
+    position: absolute;
+    left: 1vw;
+  }
+}
+.phone{
+  display: flex;
+  align-items: center;
+  img{
+    width: 1.5rem;
+    margin-right: 1vw;
+  }
+  &__text{
+    color: #616161;
+    &__top{
+      font-size: 1.4rem;
+      span{
+        color: #8dc73f;
+        font-family: 'Covered By Your Grace', cursive;
+        font-size: 1.7rem;
+      }
+      margin-bottom: 5px;
+    }
+    &__bottom{
+      font-size: 0.72rem;
+    }
+  }
+}
+.section__nav{
+  background: #f7f8f8 ;
+  padding: 0.9rem 0;
+}
+.navigation{
+  ul{
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+  li{
+    list-style: none;
+  }
+  a{
+    font-size: 1.08rem;
+    text-transform: uppercase;
+    color: #4f4e4e;
+  }
+}
+
+@media (max-width: 767px){
+  .phone__text__top{
+    font-size: 1rem;
+    span{
+      font-size: 1.1rem;
+    }
+  }
+}

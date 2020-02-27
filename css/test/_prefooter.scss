@@ -1,0 +1,22 @@
+.section-prefooter{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+  margin-bottom: 3px;
+}
+
+.main-footer{
+  display: flex;
+  justify-content: space-between;
+  a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  img{
+    height: 2rem;
+    cursor: pointer;
+    text-align: center;
+  }
+}

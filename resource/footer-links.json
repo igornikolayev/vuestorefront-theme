@@ -1,0 +1,60 @@
+{
+  "footerLinks": {
+    "klanten":[
+      {
+        "title": "Contact",
+        "link": "/contact"
+      },
+      {
+        "title": "Over PortofoonWEB",
+        "link": "/over"
+      },
+      {
+        "title": "Offerte aanvraag",
+        "link": "/offerte"
+      },
+      {
+        "title": "Defect en Retour",
+        "link": "/defect"
+      },
+      {
+        "title": "Garantie",
+        "link": "/garantie"
+      },
+      {
+        "title": "Veelgestelde vragen",
+        "link": "/veelgestelde"
+      },
+      {
+        "title": "B2B",
+        "link": "/b2b"
+      }
+    ],
+    "algemene":[
+      {
+        "title": "Portofoons",
+        "link": "/portofoons"
+      },
+      {
+        "title": "Toepassingen",
+        "link": "/toepassingen"
+      },
+      {
+        "title": "Algemene voorwaarden",
+        "link": "/algemene"
+      },
+      {
+        "title": "Betalen en Verzenden",
+        "link": "/betalen"
+      },
+      {
+        "title": "Privacy en Cookies",
+        "link": "/privacy"
+      },
+      {
+        "title": "Disclaimer",
+        "link": "/disclaimer"
+      }
+    ]
+  }
+}
